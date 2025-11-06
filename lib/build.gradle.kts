@@ -92,15 +92,15 @@ mavenPublishing {
                 url.set("https://github.com/Dansoftowner/")
             }
             developer {
-                id.set("ZhiFenBL")
-                name.set("ZhiFenBL")
-                url.set("https://github.com/ZhiFenBL/")
+                id.set("WattDownload")
+                name.set("WattDownload")
+                url.set("https://github.com/WattDownload/")
             }
         }
         scm {
-            url.set("https://github.com/ZhiFenBL/libJSysThemeDetector/")
-            connection.set("scm:git:git://github.com/ZhiFenBL/libJSysThemeDetector.git")
-            developerConnection.set("scm:git:ssh://git@github.com/ZhiFenBL/libJSysThemeDetector.git")
+            url.set("https://github.com/WattDownload/libJSysThemeDetector/")
+            connection.set("scm:git:git://github.com/WattDownload/libJSysThemeDetector.git")
+            developerConnection.set("scm:git:ssh://git@github.com/WattDownload/libJSysThemeDetector.git")
         }
     }
 }
