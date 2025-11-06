@@ -2,14 +2,15 @@
 # https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
 
 [versions]
-jna = "5.18.0"
+jna = "5.18.1"
 jfa = "1.2.0"
 oshi = "6.8.3"
 semver4j = "6.0.0"
 jetbrains-annotations = "26.0.2-1"
 slf4j = "2.1.0-alpha1"
-logback = "1.5.18"
+logback = "1.5.20"
 vanniktech-maven-publish = "0.34.0"
+flatlaf = "3.6.2"
 
 [libraries]
 jna = { module = "net.java.dev.jna:jna", version.ref = "jna" }
@@ -21,6 +22,8 @@ jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "j
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
 logback-core = { module = "ch.qos.logback:logback-core", version.ref = "logback" }
 logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+flatlaf = { module = "com.formdev:flatlaf", version.ref = "flatlaf" }
+flatlaf-extras = { module = "com.formdev:flatlaf-extras", version.ref = "flatlaf" }
 
 [plugins]
 vanniktech-maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech-maven-publish" }
