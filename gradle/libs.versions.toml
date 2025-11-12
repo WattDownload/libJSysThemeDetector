@@ -8,8 +8,8 @@ oshi = "6.8.3"
 semver4j = "6.0.0"
 jetbrains-annotations = "26.0.2-1"
 slf4j = "2.1.0-alpha1"
-logback = "1.5.20"
-vanniktech-maven-publish = "0.34.0"
+logback = "1.5.21"
+vanniktech-maven-publish = "0.35.0"
 flatlaf = "3.6.2"
 
 [libraries]

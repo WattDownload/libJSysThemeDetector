@@ -47,7 +47,7 @@ dependencies {
     testImplementation(libs.logback.classic)
 
     testImplementation(libs.flatlaf)
-    testImplementation(libs.flatlaf.core)
+    testImplementation(libs.flatlaf.extras)
 }
 
 testing {
